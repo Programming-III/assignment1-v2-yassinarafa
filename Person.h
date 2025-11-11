@@ -8,6 +8,7 @@ private:
     string name;
     int id;    
 public:
+    Person(string n,int id);
     void display();
 };
 
