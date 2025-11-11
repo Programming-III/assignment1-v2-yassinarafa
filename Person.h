@@ -10,6 +10,10 @@ private:
 public:
     Person(string n,int id);
     void display();
+    void setName(string name);
+    string getName();
+    void setID(int id);
+    int getID();
     ~Person();
 };
 
