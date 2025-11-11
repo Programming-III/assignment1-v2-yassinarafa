@@ -101,6 +101,24 @@ string Instructor::getExperienceYears(){
     return experienceYears;
 }
 
+void Course::setCourseCode(string c){
+    courseCode = c;
+}
+string Course::getCourseCode(){
+    return courseCode
+}
+void Course::setCourseName(string n){
+    courseName=n;
+}
+string Course::getCourseName(){
+        return courseName;
+}
+void Course::setMaxStudents(int m){
+    maxStudents = m;
+}
+int Course::getMaxStudents(){
+    return maxStudents;
+}
 
 ~Person(){
     delete;
