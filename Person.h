@@ -10,6 +10,7 @@ private:
 public:
     Person(string n,int id);
     void display();
+    ~Person();
 };
 
 #endif
