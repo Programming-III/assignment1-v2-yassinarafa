@@ -11,6 +11,10 @@ private:
 public:
     Instructor(string n, int id, string d, int e);
     void display();
+    void setDepartment(string d);
+    string getDepartment();
+    void setExperienceYears(int e);
+    int getExperienceYears();
     ~Instructor();
 };
 
