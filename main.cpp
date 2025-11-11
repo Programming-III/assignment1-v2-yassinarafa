@@ -63,6 +63,20 @@ void Course::displayCourseInfo(){
 
 }
 
+~Person(){
+    delete;
+}
+~Student(){
+    delete;
+}
+~Instructor(){
+    delete;
+}
+~Course(){
+    delete[] students;
+}
+
+
 int main(){ 
 Student s("yassin",223,12,"CS");
 Instructor i("Mohamed", 229,"CS", 10);
