@@ -12,6 +12,10 @@ private:
 public:
     Student(string n,int id,int y,string m);
     void display();
+    void setMajor(string m);
+    string getMajor();
+    void setYearLevel(int y);
+    int getYearLevel();
     ~Student();
 };
 
