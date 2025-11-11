@@ -62,6 +62,18 @@ void Course::displayCourseInfo(){
     }
 
 }
+string Person::getName(){
+    return name;
+}
+void Person::setName(string n){
+    name = n;
+}
+string Person::getId(){
+    return name;
+}
+void Person::setName(string n){
+    name = n;
+}
 
 ~Person(){
     delete;
