@@ -15,6 +15,7 @@ public:
     Course(string cC, string cN, int mS);
     void addStudent(Student& s);
     void displayCourseInfo();
+    ~Course();
 };
 
 #endif
