@@ -68,12 +68,39 @@ string Person::getName(){
 void Person::setName(string n){
     name = n;
 }
-string Person::getId(){
-    return name;
+string Person::getID(){
+    return id;
 }
-void Person::setName(string n){
-    name = n;
+void Person::setID(int i){
+    id = i;
 }
+
+void Student::setYearLevel(int s){
+    yearLevel =s;
+}
+int Student::getYearLevel(){
+    return yearLevel;
+}
+void Student::setMajor(string s){
+    major = s;
+}
+string Student::getMajor(){
+    return major;
+}
+
+void Instructor::setDepartment(string s){
+    department =s;
+}
+int Intructor::getDepartment(){
+    return department;
+}
+void Intructor::setExperienceYears(int s){
+    experienceYears = s;
+}
+string Instructor::getExperienceYears(){
+    return experienceYears;
+}
+
 
 ~Person(){
     delete;
