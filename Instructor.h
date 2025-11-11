@@ -11,6 +11,7 @@ private:
 public:
     Instructor(string n, int id, string d, int e);
     void display();
+    ~Instructor();
 };
 
 #endif
