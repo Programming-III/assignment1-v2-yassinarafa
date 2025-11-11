@@ -12,6 +12,7 @@ private:
 public:
     Student(string n,int id,int y,string m);
     void display();
+    ~Student();
 };
 
 #endif
