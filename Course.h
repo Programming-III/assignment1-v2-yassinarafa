@@ -15,6 +15,12 @@ public:
     Course(string cC, string cN, int mS);
     void addStudent(Student& s);
     void displayCourseInfo();
+    void setCourseCode(string c);
+    string getCourseCode();
+    void setCourseName(string n);
+    string getCourseName();
+    void setMaxStudents(int m);
+    int getMaxStudents();
     ~Course();
 };
 
